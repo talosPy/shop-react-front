@@ -1,0 +1,23 @@
+{
+  "products": [
+    {
+      "id": 1733842066435,
+      "name": "Laptop",
+      "price": "500",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Dell_Latitude_E6540.jpg/220px-Dell_Latitude_E6540.jpg"
+    },
+    {
+      "id": 1733842094855,
+      "name": "XBOX",
+      "price": "500",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Xbox_series_X_%2850648118708%29.jpg/170px-Xbox_series_X_%2850648118708%29.jpg"
+    },
+    {
+      "id": 1733842167762,
+      "name": "TV ",
+      "price": "350",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Samsung_LED_TV.jpg/250px-Samsung_LED_TV.jpg"
+    }
+  ],
+  "cart": []
+}

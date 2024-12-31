@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #007bff;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.cart {
+  position: relative; /* Make sure it’s in the normal flow */
+  max-height: 300px;  /* Limit the height of the cart */
+  overflow-y: auto;   /* Allow vertical scrolling */
+  z-index: 10;        /* Ensure the cart appears above other elements */
+  padding: 10px;      /* Adjust padding as needed */
+}
+
+.cart-items {
+  max-height: 200px; /* Adjust as needed */
+  overflow-y: auto;
+}
+
+.total {
+  margin-top: 10px;
+}
+.navbar-nav li a {
+  color: #333; /* Default link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar-nav li a:hover {
+  color: #ff5733; /* Hover color */
+  text-decoration: underline; /* Add underline on hover (optional) */
+}
+
+.navbar-nav li.active a {
+  color: #007bff; /* Active link color */
+  font-weight: bold; /* Highlight active link */
+}
